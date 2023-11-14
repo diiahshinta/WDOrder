@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/A7X/Documents/WarehouseDeliveryOrder/app/src/main/res/drawable/bg_form.xml" value="0.2055" />
+        <entry key="..\:/Users/A7X/Documents/WarehouseDeliveryOrder/app/src/main/res/drawable/ic_frame_13.xml" value="0.213" />
+        <entry key="..\:/Users/A7X/Documents/WarehouseDeliveryOrder/app/src/main/res/drawable/ic_save.xml" value="0.1" />
+        <entry key="..\:/Users/A7X/Documents/WarehouseDeliveryOrder/app/src/main/res/drawable/shape_blue.xml" value="0.213" />
+        <entry key="..\:/Users/A7X/Documents/WarehouseDeliveryOrder/app/src/main/res/drawable/shape_blue_bg_stb.xml" value="0.213" />
+        <entry key="..\:/Users/A7X/Documents/WarehouseDeliveryOrder/app/src/main/res/drawable/shape_blue_stb.xml" value="0.213" />
+        <entry key="..\:/Users/A7X/Documents/WarehouseDeliveryOrder/app/src/main/res/drawable/shape_grey_dashboard.xml" value="0.213" />
+        <entry key="..\:/Users/A7X/Documents/WarehouseDeliveryOrder/app/src/main/res/drawable/shape_ic_scan_sjp.xml" value="0.213" />
+        <entry key="..\:/Users/A7X/Documents/WarehouseDeliveryOrder/app/src/main/res/drawable/shape_white.xml" value="0.213" />
+        <entry key="..\:/Users/A7X/Documents/WarehouseDeliveryOrder/app/src/main/res/font/chango.xml" value="0.215625" />
+        <entry key="..\:/Users/A7X/Documents/WarehouseDeliveryOrder/app/src/main/res/layout/activity_data_mutasi.xml" value="0.25" />
+        <entry key="..\:/Users/A7X/Documents/WarehouseDeliveryOrder/app/src/main/res/layout/activity_data_sjp.xml" value="0.3625" />
+        <entry key="..\:/Users/A7X/Documents/WarehouseDeliveryOrder/app/src/main/res/layout/activity_hasil_scan.xml" value="0.3625" />
+        <entry key="..\:/Users/A7X/Documents/WarehouseDeliveryOrder/app/src/main/res/layout/activity_kirim_text.xml" value="0.3625" />
+        <entry key="..\:/Users/A7X/Documents/WarehouseDeliveryOrder/app/src/main/res/layout/activity_location.xml" value="0.3625" />
+        <entry key="..\:/Users/A7X/Documents/WarehouseDeliveryOrder/app/src/main/res/layout/activity_main.xml" value="0.3625" />
+        <entry key="..\:/Users/A7X/Documents/WarehouseDeliveryOrder/app/src/main/res/layout/activity_menu.xml" value="0.3625" />
+        <entry key="..\:/Users/A7X/Documents/WarehouseDeliveryOrder/app/src/main/res/layout/activity_scan_barang.xml" value="0.3625" />
+        <entry key="..\:/Users/A7X/Documents/WarehouseDeliveryOrder/app/src/main/res/layout/activity_scan_fgactivity.xml" value="0.3625" />
+        <entry key="..\:/Users/A7X/Documents/WarehouseDeliveryOrder/app/src/main/res/layout/activity_scanner_barang.xml" value="0.25" />
+        <entry key="..\:/Users/A7X/Documents/WarehouseDeliveryOrder/app/src/main/res/layout/activity_scanner_fgactivity.xml" value="0.3625" />
+        <entry key="..\:/Users/A7X/Documents/WarehouseDeliveryOrder/app/src/main/res/layout/activity_splashscreen.xml" value="0.18541666666666667" />
+        <entry key="..\:/Users/A7X/Documents/WarehouseDeliveryOrder/app/src/main/res/layout/activity_verifikasi.xml" value="0.18541666666666667" />
+        <entry key="..\:/Users/A7X/Documents/WarehouseDeliveryOrder/app/src/main/res/layout/item_batch.xml" value="0.3625" />
+        <entry key="..\:/Users/A7X/Documents/WarehouseDeliveryOrder/app/src/main/res/layout/item_mutasi.xml" value="0.1" />
+        <entry key="..\:/Users/A7X/Documents/WarehouseDeliveryOrder/app/src/main/res/layout/list_data_sjp.xml" value="0.1762917933130699" />
+        <entry key="..\:/Users/A7X/Documents/WarehouseDeliveryOrder/app/src/main/res/layout/list_scan.xml" value="0.1" />
+        <entry key="..\:/Users/A7X/Documents/WarehouseDeliveryOrder/app/src/main/res/menu/main_menu.xml" value="0.3625" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
