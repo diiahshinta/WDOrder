@@ -16,6 +16,7 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.warehousedeliveryorder.adapter.BatchAdapter;
+import com.google.gson.Gson;
 
 import java.util.ArrayList;
 
@@ -68,7 +69,6 @@ public class VerifikasiActivity extends AppCompatActivity {
             konfirmasi.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {
-                    Log.d("testsertem1", id + " + " + bar);
                     Api.getClient().create(APIService.class).verifikasi(id, bar).enqueue(new Callback<ResponseVer>() {
 
                         @Override

@@ -36,7 +36,7 @@ public interface APIService {
     Call<ResponseFG> saveFG(@Path("id") String id,
                             @Path(value = "barcode", encoded = true) String barcode);
 
-    @GET("api/sjp")
+    @GET("sjp")
     Call<ArrayList<ResponseKonfirmasi>> getData(@Query("barcode") String barcode);
 
     @GET("api/sertem/verifikasi/{id_dokumen}/{barcode}")

@@ -40,9 +40,19 @@ public class ScannerFGActivity extends AppCompatActivity implements ZXingScanner
         apiService = Api.getClient2().create(APIService.class);
         back = findViewById(R.id.btn_back);
 
-        token = "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiY2M4MDhkZTA2MWM2OTkyMjU2OGUxMGIzNjA2MjEzMTlmMzQwNmFiZGE3ZDYyNTVlZWNlZDZkYjZlMjQwYTJlYWZjYjM5OGFlMmIyNzU5Y2YiLCJpYXQiOjE2OTk1MjY1MTMuNjEyNjU1LCJuYmYiOjE2OTk1MjY1MTMuNjEyNjYxLCJleHAiOjE3MzExNDg5MTMuNTk3NTM0LCJzdWIiOiI3OCIsInNjb3BlcyI6WyJkYXRhcHJpbnQuc2NhbiIsImRhdGFwcmludC5rYXJhbnRpbmEiLCJkYXRhcHJpbnQucmVqZWN0IiwiZGF0YXByaW50Lmx1bHVzIl19.asgLqwFErGFTYSHGbBDIhX4ZcmSrCD4c13vlSHPoBVYb8SB_m8d6FVyQLXBV3PtW0np8473DluHjbsDKPfysbz6d0MhR1UbGbhlhyQKjylNHRRPe2q_k_uPCwa8c1Osf__Gdehj4EzAaCpO1sJp_TIOoxf1D0Ivdpfy0Kd6drO6YHKyG4Px8pi_EX1xK-BgSCP9FzypFI9MevtolGaNTn_44R0_iw-QAwlV3ZU4F7I8iWHMIxuDKcADAhGrhSOpb1j_KUdE_pigu4zubJBXi3tiIkaw-tTlMQrEORIIuW35LOQq68mbT9Oi5a9B0Z6ci33VZFSA1_gt6ZaqV4iCgM-RQjND2LhV-XNh76t_SQsWFBhHuWUzJb7N6kmNGere2WmYKyEpc1PCiElVijyrD4ZefxuO-jrfq1WF9WTpXRbuNlMLyI-xu7haWGF2R6rQvzONn5lC0nC98vrwIHJkQAy6h-fm4BcvtYVSuorTQ03fBXUToafMVu4CgU90ho2kX9hUEzIxrrQHej74LEzVGXmb14Vn9sezuHAW2hs2kl9WMDZ-EYOBCO4GGphAnu-9kOnQvYqWqpl1vIbZKVy6qMpFHfrhvxeH5vqB_euE_AVfxY1JA4QajtmC5Pt5fA-NePyuF0XZRAfxQTSm-DQg5r_oQ7SacKcxCaWdEqZsgI7k";
+        token = "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9." +
+                "eyJhdWQiOiIxIiwianRpIjoiZGFiODVjMTk3YTJiNWNmMzI3NDUxODc1NmVkZTlhNmRiY2ZlNTJjODYxZjc" +
+                "4NjczNjg3ZGQ0NTc2MzkzYmI3ZTMyMDE4ODUyYzI3OTczZDIiLCJpYXQiOjE2OTk4NTk0NzguMzgzNzg4LCJ" +
+                "uYmYiOjE2OTk4NTk0NzguMzgzNzkyLCJleHAiOjE3MzE0ODE4NzguMzc2MjA0LCJzdWIiOiI3OCIsInNjb3BlcyI" +
+                "6WyJkYXRhcHJpbnQuc2NhbiIsImRhdGFwcmludC5rYXJhbnRpbmEiLCJkYXRhcHJpbnQucmVqZWN0IiwiZGF0YXByaW50Lmx1bHVzIl19." +
+                "jqdy7cugofSc3hoD-kG78dz22avfSlUXfTQyliFQtPJGxYiIsilx3hGtiuOd5vrfkM4ngQwtTwS44Q9Ko-5StUMkX45ottLCqrqNphjPAz5wp_" +
+                "6kWXzeObZxGOaWpr4rn6TaIfgQfiuBNhbP2kbhXgqKjVqwhe0vy2pERTh6fWYq4v18LzufNsA1JS-R_YkYxcXQAHJp8eQGxJv3yZL6Dy0QaDG-" +
+                "AZY2ru3oFtYoWXuckTERpu53_9y8lWLOefsDUghAP6im2eq1FkBdPQ4TCG0CdmWvpDB5IMoJ36hErC80RLvbWGQhW63_bHdenxD3zMLdSDcO9AYqQVaabRW474_" +
+                "Gas_F8648ysl5gOCcorWrGe6X6wvuXmLDqOBihTDFuY7_P-BcHFgTBvQjihW2-GxtCOPIY0JmduacEhHvZxhmjcJg3927CQR7EFw8yHmxlJ4SuBiFC-" +
+                "kmIpRDoDvvMoogc4hM7E8kFMRYPKj63dUmCj0BSJdLR0yW68EftmgAyMU1cGghg6FqBUqUHIuQW7pYzyHM0Wxv6ZdG6kiIjE5c-opuzGzkPSZK-" +
+                "fPWdq6qpoMpcfpbRBzpAbQKj8UDMHTX60dhnYf1hlGM-k6pBv6xfPFNejCLpX0tRHeFCT4grVs9IxSRc625aSAYYZrVQvbu-X5eHBXI-6UQp5WlQw0";
 
-        loading = ProgressDialog.show(ScannerFGActivity.this, null, "Harap Tunggu...", true, false);
+        //loading = ProgressDialog.show(ScannerFGActivity.this, null, "Harap Tunggu...", true, false);
 
         back.setOnClickListener(new View.OnClickListener() {
             @Override
